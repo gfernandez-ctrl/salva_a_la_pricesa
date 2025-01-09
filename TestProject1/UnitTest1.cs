@@ -16,7 +16,7 @@ public class TestArmes
         int pagesos = CalcularPagesos(armes);
 
         // Assert
-        Assert.Equal(4, pagesos); // Se espera que se formen 4 pagesos
+        Assert.Equal(4, pagesos);
     }
 
     private int CalcularPagesos(string[] armes)
@@ -31,6 +31,6 @@ public class TestArmes
             }
         }
 
-        return llança; // Cada "Llança" forma un pages
+        return llança;
     }
 }
